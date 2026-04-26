@@ -1,0 +1,103 @@
+body {background-color: rgb(136, 77, 77);}
+
+header {margin: 40px;}
+
+h1, h2 {font-family: Georgia, 'Times New Roman', Times, serif; text-shadow: 2px 2px gray;}
+
+h1 {text-transform: uppercase;}
+h2 {text-transform: capitalize;}
+
+nav{
+    background-color: antiquewhite;
+    padding:20px;
+}
+
+nav a {
+    text-decoration:none;
+    color: #522f2f;
+}
+
+ul{
+    font-size: large; 
+    list-style:circle;
+    list-style-position: outside;
+}
+
+a.inside {color: pink;}   /*Class selector*/
+
+main {
+    background-color: antiquewhite;
+    border: 2px solid rosybrown;
+    margin: 2.5rem;
+}
+
+p{font-weight: 300;}
+
+#mainContact { padding: 25px;}
+
+
+
+/*index.html styling*/
+
+#mainHome {padding: 30px;}
+
+footer{ color: antiquewhite; }
+
+#emanImg { 
+    float: right; 
+    max-height: 11.25rem; 
+    border-radius: 10px; 
+    margin-right: 1.25rem;
+}
+
+
+/*project.html styling*/
+
+table {
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    padding: 1.25rem;
+    vertical-align: top;
+}
+
+.projectImg {
+    max-width: 100%;   /* never exceed container width */
+    height: auto;      /* keep aspect ratio */
+    object-fit: contain; /* prevents cropping */
+}
+
+#info1, #info2 {display: none;}
+
+/*cv.html styling*/
+
+article{padding: 1.5rem;}
+
+section{
+    border: 3px solid rosybrown;
+    width: 95%;
+    height:inherit;
+    padding:1.25rem;
+ }
+
+ol {list-style-type: square;}
+
+blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+    color: #555;
+    font-style: italic;
+}
+
+
+
+/*thanks.html styling*/
+
+.thanksPage {text-align: center;}
+
+
+
+    

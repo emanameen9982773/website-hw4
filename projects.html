@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css">
+     
+    
+  </head>
+  <body>
+    <header>
+      <h1> My Projects</h1>
+      <h2>Eman Qaed - Computer Science Student </h2>
+      <nav role="navigation">
+        <ul>
+          <li> <a href="index.html" >Home</a></li>
+          <li> <a  href="cv.html">CV</a></li>
+          <li> <a href="projects.html" class="inside">Projects</a></li>
+          <li> <a href="contact.html">Contact me</a></li>
+        </ul>
+      </nav>
+
+    </header>
+    
+    <main>
+
+     <table> <!-- to display projects I used table insted of articles for a better view-->
+      <tr>
+        <th><h2>GEA Game Store</h2></th>
+        <th><h2>Connect4 AI</h2></th>
+      </tr>
+
+      <tr>
+        <td>
+          <figure>  
+            <img src="images/GEA.png" alt="a screanshot of GEA home page" class="projectImg">
+            <figcaption><p id="info1">An online game store with a nice GUI, enabling users
+              to create accounts, buy, delete, and send -gift to a friend user- games.<br> publish date <time datetime="2024-11">November 2024</time><br>to project <a href="https://github.com/emanameen9982773/Game-Store-project-GUI.git">GitHub Repository</a></p>
+            </figcaption>
+          </figure>
+          <button id="displayInfoButton1">display info</button>
+        </td>
+
+
+        <td>
+          <figure>
+            <img src="images/connect4.png" alt="screanshot of AI playing against human" class="projectImg">
+            <figcaption><p id="info2">An AI model trained to play and win the game Connect 4, integrated into an
+             interactive and user-friendly GUI, enabling human–AI interaction.<br> publish date <time datetime="2025-12">December 2025</time><br>go to project <a href="https://github.com/emanameen9982773/Connect4AI.git">GitHub Repository</a></p>
+            </figcaption>
+          </figure>
+          <button id="displayInfoButton2">display info</button>
+       </td>
+      </tr>
+     </table>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
